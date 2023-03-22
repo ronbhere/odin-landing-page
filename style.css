@@ -4,14 +4,51 @@
     padding: 0;
 }
 
+
+
+#landing-page {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 #header {
     background-color: #1f2937;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 75px 50px;
+    
+}
+
+#header-left {
+    flex-basis: 50%;
+}
+#header-right {
+    display: flex;
+    flex-direction: column;
+    
+    
 }
 
 .header-photo {
     width: 250px;
     height: 140px;
+    align-self: flex-end;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    
 }
 
 #photo {

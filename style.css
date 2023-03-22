@@ -4,8 +4,34 @@
     padding: 0;
 }
 
+#header {
+    background-color: #1f2937;
+    color: #ffffff;
+}
 
 .header-photo {
     width: 250px;
     height: 140px;
 }
+
+#photo {
+    background-color: #ffffff;
+}
+
+#quote {
+    background-color: #e5e7eb;
+}
+
+#signup {
+    background-color: #ffffff;
+}
+
+#inner-box {
+    background-color: #3882f6;
+}
+
+#footer {
+    background-color: #1f2937;
+    color: #ffffff;
+}
+

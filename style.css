@@ -1,4 +1,11 @@
-.header-right, img {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-photo {
     width: 250px;
     height: 140px;
 }
